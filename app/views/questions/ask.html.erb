@@ -1,0 +1,8 @@
+<div class="m-3">
+  <h1>Stupid Coaching</h1>
+  <form action="/answer" data-turbo="false">
+    <label for="question">Ask me anything</label>
+    <input type="text" name="question" value="<% params[:question] %>" class="form-control">
+    <input type="submit" value="Ask!" class="btn btn-primary mt-2">
+  </form>
+</div>
